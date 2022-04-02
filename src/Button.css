@@ -1,0 +1,67 @@
+button{
+   
+    border: none;
+    color: white;
+    padding: 10px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    opacity: 0.8;
+}
+button:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.delete-btn-person{
+    background-color: #c02b8e;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 5px;
+    box-shadow:inset 0 0 10px #b13f3f;
+    cursor: pointer;
+    width: 75px;
+}
+.delete-btn-person:hover {
+    opacity: 0.8;
+}
+.delete-btn-person:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+.clear-btn-all{
+    background-color: #f7ebf3;
+    color: rgb(219, 16, 16);
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 425px;
+    box-shadow: inset 0 0 10px #b20b0b;
+    
+}
+.clear-btn-all:hover {
+    opacity: 0.8;
+}
+.clear-btn-all:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transition: 1s all ease;
+    transform: translateY(4px);
+}
+.clear-btn-all:focus {
+    outline: 0;
+}
+
+
